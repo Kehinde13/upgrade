@@ -6,6 +6,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.navHero {
+  background-image: url('/src/app/assets/Backgroundpattern.png');
+}
+
+/* Custom Scrollbar Styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* Default scrollbar thumb */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Change scrollbar color when a div is selected */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: green;
+}
+
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
