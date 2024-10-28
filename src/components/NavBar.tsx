@@ -5,7 +5,7 @@ import Mobilemenu from './Mobilemenu'
 
 function NavBar() {
   return (
-    <div className='bg-[#003B47] text-gray-200 w-full flex justify-between py-2 md:py-3 md:px-20 px-4'>
+    <div className='customDiv text-gray-200 w-full flex justify-between py-2 md:py-3 md:px-20 px-4 '>
         <div>
           <Image src={logo} alt='logo'  />
         </div>

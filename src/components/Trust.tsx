@@ -7,10 +7,10 @@ import { MoveUpRight } from "lucide-react";
 
 function Trust() {
   return (
-    <div className="bg-[#003B47] p-5 md:p-20 lg:flex justify-between gap-20 text-white">
+    <div className="bg-[#003B47] p-5 md:p-20 lg:flex justify-between gap-20 text-white background-with-spots">
       <Image src={phone} alt="phone and card" />
       <div className="mt-20">
-        <div className="p-1 px-2 rounded-2xl bg-[#003B47] flex items-center gap-1 text-sm mt-5 lg:mt-0 w-[40%] md:w-[18%]">
+        <div className="p-1 px-2 rounded-2xl bg-[#003B47] flex items-center gap-1 text-sm mt-5 lg:mt-0 w-[62%] md:w-[30%]">
           <Image src={fire} alt="fireIcon" />
           TRUSTWORTHINESS
         </div>

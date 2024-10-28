@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
   	extend: {
 		backgroundImage: {
-          "customPattern": "url('/src/app/assets/Backgroundpattern.png')"
+          "customPattern": "url('/assets/Backgroundpattern.png')"
 		},
   		colors: {
   			background: 'hsl(var(--background))',

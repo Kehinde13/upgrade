@@ -7,9 +7,9 @@ import { MoveUpRight } from "lucide-react";
 
 function Hero() {
   return (
-    <div className="md:flex justify-between md:px-10 lg:px-20 py-10 px-5 bg-[#003B47] text-white">
+    <div className="md:flex justify-between md:px-10 lg:px-20 py-10 px-5  text-white customDiv">
       <div className="md:mt-20 mt-5 md:w-[50%] flex flex-col gap-5">
-        <div className="flex rounded-xl items-center text-sm gap-2">
+        <div className="flex rounded-2xl items-center text-sm gap-2 bg-[#003B47] p-1 lg:w-[38%] md:w-[70%]">
             <Image src={fire} alt="fire icon" />
             100% TRUSTED PLATFORM
         </div>
