@@ -4,10 +4,8 @@ import fire from "@/app/assets/fi_10760660.png";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 import quote from "@/app/assets/fi_1155679 (1).png";
 import mike from "@/app/assets/Ellipse 12.jpg";
